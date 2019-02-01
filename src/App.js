@@ -14,6 +14,7 @@ class App extends Component {
 		
 		super(props);
 		
+		// set full dataSet and initital context for right card
 		this.state = {
 			data: json,
 			list: true,
@@ -26,17 +27,15 @@ class App extends Component {
 		
 	}
 	
-	componentDidMount() {
-		
-	}
-	
 	showMap() {
+		// toggle list boolean off to show map
 		this.setState({
 			list: false,
 		});
 	}
 	
 	showList() {
+		// toggle list boolean on to show list
 		this.setState({
 			list: true,
 		});
@@ -44,12 +43,19 @@ class App extends Component {
 	
 	// reset data in state when filters removed
 	resetFilters() {
+		/* 
+		 * @@ TODO - to will inevitably invoke the dt.filter function
+		 * lower down the tree in future.
+		 */
 		this.setState({
 			data: json
 		})
 	}
 	
-	// populate panel with selected row data
+	/* 
+	 * Handler passed to child component to
+	 * populate panel with selected row data
+	 */
 	contextHandler(data) {
 		this.setState({
 			context: data
@@ -85,7 +91,7 @@ class App extends Component {
 
 export default App;
 
-// I'd usually put this in a component, but...
+// I'd usually put this elsewhere, but...
 const items = [
 	{
 		label:'Download',

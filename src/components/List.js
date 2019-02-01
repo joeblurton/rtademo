@@ -40,6 +40,7 @@ class List extends Component {
 	
 	render() {
 		
+		// set header labels
 		const roads = [
 			{label: 'TODO', value: null},
 			{label: 'M or Class A Principal Motorway (PM)', value: 'PM'},
@@ -56,11 +57,13 @@ class List extends Component {
 			{label: 'Class U road in Urban area (UU)', value: 'UU'}
 		];
 		
+		// header component to pass to DataTable
 		var header = <div style={{'textAlign':'left'}}>
                         <i className="pi pi-search" style={{margin:'4px 4px 0 0'}}></i>
                         <InputText type="search" onInput={(e) => this.setState({globalFilter: e.target.value})} placeholder="Search all Counts" size="50"/>
                     </div>;
-						
+		
+		// @@TO DO - road filter dropdown
 		let roadFilter = <Dropdown style={{width: '100%'}} options={roads} value={this.state.road} onChange={this.onRoadChange}/>
 		
 		return (

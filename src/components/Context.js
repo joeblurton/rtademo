@@ -8,6 +8,8 @@ class MenuExtraContent extends Component {
 	render() {
 
 		if (this.props.data) {
+			
+			// Define data for Pie Chart
 			const data = {
 				labels: [
 					"Pedal Cycles", 
@@ -54,6 +56,7 @@ class MenuExtraContent extends Component {
 				]
 			}
 			
+			// Options object for Bar Chart
 			const options = {
 				title: {
 					display: true,
@@ -65,6 +68,7 @@ class MenuExtraContent extends Component {
 				}
 			};
 			
+			// Preformat variables for readability
 			const formatted = {
 				LinkLength_km: format({round: 1})(this.props.data.LinkLength_km) + " km",
 				LinkLength_miles: format({round: 1})(this.props.data.LinkLength_miles) + " miles",
@@ -95,7 +99,7 @@ class MenuExtraContent extends Component {
 				</Card>
 			);
 		} else {
-			return <p>Quick View Dashboard</p>
+			return <p>No context selected</p>
 		}
 	}
 }
