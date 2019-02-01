@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Demo app at [https://joeblurton.github.io/rtademo/](https://joeblurton.github.io/rtademo/).
 
 ## Available Scripts
 
