@@ -1,10 +1,10 @@
 {
   "main.css": "/rtademo/static/css/main.20244bdd.chunk.css",
-  "main.js": "/rtademo/static/js/main.2e81cf49.chunk.js",
-  "main.js.map": "/rtademo/static/js/main.2e81cf49.chunk.js.map",
+  "main.js": "/rtademo/static/js/main.6a527aec.chunk.js",
+  "main.js.map": "/rtademo/static/js/main.6a527aec.chunk.js.map",
   "static/css/1.f9b288bd.chunk.css": "/rtademo/static/css/1.f9b288bd.chunk.css",
-  "static/js/1.431113b5.chunk.js": "/rtademo/static/js/1.431113b5.chunk.js",
-  "static/js/1.431113b5.chunk.js.map": "/rtademo/static/js/1.431113b5.chunk.js.map",
+  "static/js/1.258153ad.chunk.js": "/rtademo/static/js/1.258153ad.chunk.js",
+  "static/js/1.258153ad.chunk.js.map": "/rtademo/static/js/1.258153ad.chunk.js.map",
   "runtime~main.js": "/rtademo/static/js/runtime~main.4336838d.js",
   "runtime~main.js.map": "/rtademo/static/js/runtime~main.4336838d.js.map",
   "static/media/primereact.min.css": "/rtademo/static/media/color.c7a33805.png",
@@ -14,6 +14,6 @@
   "static/css/main.20244bdd.chunk.css.map": "/rtademo/static/css/main.20244bdd.chunk.css.map",
   "static/css/1.f9b288bd.chunk.css.map": "/rtademo/static/css/1.f9b288bd.chunk.css.map",
   "index.html": "/rtademo/index.html",
-  "precache-manifest.485007f27a2167ebdd76d458145ba19f.js": "/rtademo/precache-manifest.485007f27a2167ebdd76d458145ba19f.js",
+  "precache-manifest.312079fd55fed7c6de812ce9f59cd701.js": "/rtademo/precache-manifest.312079fd55fed7c6de812ce9f59cd701.js",
   "service-worker.js": "/rtademo/service-worker.js"
 }
